@@ -1,0 +1,13 @@
+.nav{
+    display:flex;
+    justify-content: center;
+}
+li{
+    list-style: none;
+    margin-right: 30px;
+    margin-top: 105px;
+}
+img{
+    margin-top: 50px;
+    margin-right: 50px;
+}

@@ -1,0 +1,35 @@
+img{
+    height:200px;
+    width:300px;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+.form1{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btun{
+    display: flex;
+    justify-content: center;
+}
+button{
+    margin-right: 20px;
+}
+.password1 p{
+    position: relative;
+    left:10px;
+}
+.password1 input{
+    position: relative;
+    left:10px;
+}
+.email1 p{
+    position:relative;
+    left:8px;
+}
+.email1 input{
+    position:relative;
+    left:8px;
+}

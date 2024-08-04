@@ -1,0 +1,8 @@
+.div{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+#x{
+    margin-top: 90px;
+}

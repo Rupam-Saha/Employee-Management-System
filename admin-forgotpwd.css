@@ -1,0 +1,16 @@
+.tri{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mon{
+    display: flex;
+    flex-direction: column;
+    height:250px;
+    width:290px;
+    border:2px solid red;
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}

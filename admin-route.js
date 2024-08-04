@@ -1,0 +1,18 @@
+const express=require("express");
+const {login,emp_details,emp_qualification,contact_details,delete_emp_details,delete_emp_qualification,delete_emp_contact,get_emp_details,update_emp_details,get_emp_quali,update_emp_quali,admin_forgotpwd,stat} =require("../controller/admin-controll");
+const check=require("../middleware/adminLogin");
+const x=express.Router();
+x.route("/login").post(check(),login);
+x.route("/empDetails").get(emp_details);
+x.route("/empQualification").get(emp_qualification);
+x.route("/contact_details").get(contact_details);
+x.route("/delete/user/:email").delete(delete_emp_details);
+x.route("/delete/user/qualification/:email").delete(delete_emp_qualification);
+x.route("/delete/user/contact/:email").delete(delete_emp_contact);
+x.route("/emp/details/:id").get(get_emp_details);
+x.route("/emp/update/:id").patch(update_emp_details);
+x.route("/emp/qualification/:id").get(get_emp_quali);
+x.route("/emp/update/qualification/:id").patch(update_emp_quali);
+x.route("/forgotPassword").patch(admin_forgotpwd);
+x.route("/getstat").get(stat);
+module.exports=x;

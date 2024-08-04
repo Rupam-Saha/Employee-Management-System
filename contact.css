@@ -1,0 +1,25 @@
+.contactform{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.abc{
+    display:flex;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width:350px;
+}
+.msg input{
+    height:200px;
+    width:350px;
+}
+.btn{
+    display: flex;
+}
+.btn button{
+    margin-right: 40px;
+}

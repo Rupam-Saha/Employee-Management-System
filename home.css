@@ -1,0 +1,21 @@
+*{
+    color:black;
+    background-color: wheat;
+}
+#heading{
+    text-align: center;
+    text-decoration:solid underline black;
+}
+.about{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.about pre{
+    text-align: center;
+    font-size: larger;
+}
+.btn button{
+    margin-right:20px;
+    margin-top:20px;
+}

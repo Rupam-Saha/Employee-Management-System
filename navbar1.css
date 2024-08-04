@@ -1,0 +1,8 @@
+.nav1 ul{
+    display:flex;
+    justify-content: center;
+}
+li{
+    margin-right:50px;
+    cursor: pointer;
+}

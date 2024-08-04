@@ -1,0 +1,15 @@
+const express=require("express");
+const {register,login,details,quali,qualidetails,contact,forgot}=require("../controller/auth-controll");
+const check=require("../middleware/register");
+const check1=require("../middleware/login");
+const check2=require("../middleware/qualification");
+const check3=require("../middleware/contact");
+const r=express.Router();
+r.route("/register").post(check(),register);
+r.route("/login").post(check1(),login);
+r.route("/details").get(details);
+r.route("/qualification").post(check2(),quali);
+r.route("/qualificationget").get(qualidetails);
+r.route("/contact").post(check3(),contact);
+r.route("/forgot_password").patch(forgot);
+module.exports=r;

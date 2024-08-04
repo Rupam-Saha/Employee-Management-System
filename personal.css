@@ -1,0 +1,10 @@
+.main2{
+    display:flex;
+}
+.x{
+    display: flex;
+    flex-direction: column;
+}
+.A1{
+    margin-top: 10px;
+}

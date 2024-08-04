@@ -1,0 +1,10 @@
+.main{
+    display:flex;
+    flex-direction: column;
+}
+.info{
+    border:2px red solid;
+    height:430px;
+    width:400px;
+    border-radius: 10px;
+}
